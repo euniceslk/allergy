@@ -1,0 +1,30 @@
+.centered-child {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.inside-box {
+	max-width: 70%;
+	padding-top: 5%;
+	display: block;
+}
+
+.sans {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 2.5em;
+}
+
+.centered-display {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 5%;
+
+}
+.section-center {
+	background-image: no-repeat center center fixed;
+	min-height: 100vh;
+}

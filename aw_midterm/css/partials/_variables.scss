@@ -1,0 +1,44 @@
+$color-main:#f2e4e4;
+$color-sub:rgba(255, 255, 255, 0.85);
+
+
+$font-family:"Open Sans", sans-serif;
+$font-header:"Merriweather", serif;
+
+
+$size-sm: 5px;
+$size-md: $size-sm * 2;
+$size-lg: $size-md * 2;
+
+$site-width:800px;
+
+// Sass Map
+$container-width:(
+	xs:0,
+	sm:480px,
+	md:640px,
+	lg:960px,
+	xl:1280px
+	);
+
+$gutter-width:$size-md;
+$column-length:12;
+
+
+$boxes-map:(
+	p:padding,
+	m:margin
+	);
+$positions-map:(
+	t:top,
+	r:right,
+	b:bottom,
+	l:left
+	);
+// h = horizontal, v = vertical, ''= all sides
+$sizes-map:(
+	l:$size-lg,
+	m:$size-md,
+	s:$size-sm,
+	n:0
+	);

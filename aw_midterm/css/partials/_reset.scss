@@ -1,0 +1,45 @@
+* {
+	box-sizing:border-box;
+	transition:width 0.1s;
+}
+
+body {
+	margin:0;
+	font-family:$font-family;
+	font-size:100%;
+	background-color:$color-main;
+	color:$color-sub;
+
+}
+
+h1,
+h2,
+h3 {
+	font-family:$font-header;
+}
+
+h1 {
+	font-size:2.5em;
+	text-align: center;
+}
+
+h2 {
+	font-size:1.75em;
+	text-align: center;
+}
+
+h3 {
+	font-size:1.5em;
+	font-weight:300;
+	color:rgba(255, 255, 255, 0.65);
+	text-align: center;
+}
+
+ul,
+li,
+p {
+	font-size:1em;
+	font-weight: 300;
+}
+
+
